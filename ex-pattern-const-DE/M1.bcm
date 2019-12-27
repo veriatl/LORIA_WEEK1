@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scMachineFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scSeesContext name="'" org.eventb.core.scTarget="/ex-pattern-const-DE/C1.bcc" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.seesContext#("/>
+<org.eventb.core.scInternalContext name="C1">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="c1∈(R ⦂ ℙ(R))" org.eventb.core.source="/ex-pattern-const-DE/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.axiom#_6ufCooXbEemG6aLnsnvHyQ" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="c2∈(R ⦂ ℙ(R))" org.eventb.core.source="/ex-pattern-const-DE/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.axiom#_6ufCo4XbEemG6aLnsnvHyQ" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name=")" org.eventb.core.label="axm3" org.eventb.core.predicate="partition(CTRL,{step})" org.eventb.core.source="/ex-pattern-const-DE/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.axiom#_6ufCooXbEemG6aLnsnvHyT" org.eventb.core.theorem="false"/>
+<org.eventb.core.scCarrierSet name="CTRL" org.eventb.core.source="/ex-pattern-const-DE/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.carrierSet#_6ufCooXbEemG6aLnsnvHyR" org.eventb.core.type="ℙ(CTRL)"/>
+<org.eventb.core.scConstant name="c1" org.eventb.core.source="/ex-pattern-const-DE/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#_6ufCoIXbEemG6aLnsnvHyQ" org.eventb.core.type="R"/>
+<org.eventb.core.scConstant name="c2" org.eventb.core.source="/ex-pattern-const-DE/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#_6ufCoYXbEemG6aLnsnvHyQ" org.eventb.core.type="R"/>
+<org.eventb.core.scConstant name="step" org.eventb.core.source="/ex-pattern-const-DE/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#_Fz7-ECi0Eeq2P6Y5e5vOsQ" org.eventb.core.type="CTRL"/>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scInvariant name="C2" org.eventb.core.label="inv1" org.eventb.core.predicate="x∈(R ⦂ ℙ(R))" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#+" org.eventb.core.theorem="false"/>
+<org.eventb.core.scInvariant name="C3" org.eventb.core.label="inv2" org.eventb.core.predicate="n∈(R ⦂ ℙ(R))" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#," org.eventb.core.theorem="false"/>
+<org.eventb.core.scInvariant name="C4" org.eventb.core.label="inv3" org.eventb.core.predicate="ctrl∈CTRL" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#." org.eventb.core.theorem="false"/>
+<org.eventb.core.scInvariant name="C5" org.eventb.core.label="inv4" org.eventb.core.predicate="leq(zero ⦂ R,n)" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#1" org.eventb.core.theorem="false"/>
+<org.eventb.core.scInvariant name="C6" org.eventb.core.label="inv5" org.eventb.core.predicate="⊤" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#2" org.eventb.core.theorem="false"/>
+<org.eventb.core.scVariable name="ctrl" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#\/" org.eventb.core.type="CTRL"/>
+<org.eventb.core.scVariable name="n" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#*" org.eventb.core.type="R"/>
+<org.eventb.core.scVariable name="x" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#)" org.eventb.core.type="R"/>
+<org.eventb.core.scEvent name="ctrm" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'">
+<org.eventb.core.scAction name="'" org.eventb.core.assignment="x ≔ zero ⦂ R" org.eventb.core.label="act1" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'|org.eventb.core.action#'"/>
+<org.eventb.core.scAction name="(" org.eventb.core.assignment="n ≔ zero ⦂ R" org.eventb.core.label="act2" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'|org.eventb.core.action#("/>
+<org.eventb.core.scAction name=")" org.eventb.core.assignment="ctrl ≔ step" org.eventb.core.label="act3" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'|org.eventb.core.action#)"/>
+</org.eventb.core.scEvent>
+<org.eventb.core.scEvent name="ctrn" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="step" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#-">
+<org.eventb.core.scGuard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="ctrl=step" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#-|org.eventb.core.guard#)" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAction name="(" org.eventb.core.assignment="n ≔ n plus (one ⦂ R)" org.eventb.core.label="act1" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#-|org.eventb.core.action#'"/>
+<org.eventb.core.scAction name=")" org.eventb.core.assignment="x ≔ (c1 mult x) plus c2" org.eventb.core.label="act2" org.eventb.core.source="/ex-pattern-const-DE/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#-|org.eventb.core.action#("/>
+</org.eventb.core.scEvent>
+</org.eventb.core.scMachineFile>

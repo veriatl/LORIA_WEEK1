@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1577456819898" org.eventb.texttools.text_representation="context C1&#10;&#10;sets CTRL&#10;&#10;constants c1 c2 step&#10;&#10;axioms&#10;  @axm1 c1 ∈ R&#10;  @axm2 c2 ∈ R&#10;  @axm3 partition(CTRL, {step})&#10;end&#10;" version="3">
+<org.eventb.core.constant name="_6ufCoIXbEemG6aLnsnvHyQ" org.eventb.core.generated="false" org.eventb.core.identifier="c1"/>
+<org.eventb.core.constant name="_6ufCoYXbEemG6aLnsnvHyQ" org.eventb.core.generated="false" org.eventb.core.identifier="c2"/>
+<org.eventb.core.axiom name="_6ufCooXbEemG6aLnsnvHyQ" org.eventb.core.generated="false" org.eventb.core.label="axm1" org.eventb.core.predicate="c1 ∈ R"/>
+<org.eventb.core.axiom name="_6ufCo4XbEemG6aLnsnvHyQ" org.eventb.core.generated="false" org.eventb.core.label="axm2" org.eventb.core.predicate="c2 ∈ R"/>
+<org.eventb.core.carrierSet name="_6ufCooXbEemG6aLnsnvHyR" org.eventb.core.generated="false" org.eventb.core.identifier="CTRL"/>
+<org.eventb.core.axiom name="_6ufCooXbEemG6aLnsnvHyT" org.eventb.core.generated="false" org.eventb.core.label="axm3" org.eventb.core.predicate="partition(CTRL, {step})"/>
+<org.eventb.core.constant name="_Fz7-ECi0Eeq2P6Y5e5vOsQ" org.eventb.core.generated="false" org.eventb.core.identifier="step"/>
+</org.eventb.core.contextFile>

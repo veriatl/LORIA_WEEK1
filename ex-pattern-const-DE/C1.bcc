@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="c1∈(R ⦂ ℙ(R))" org.eventb.core.source="/ex-pattern-const-DE/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.axiom#_6ufCooXbEemG6aLnsnvHyQ" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="c2∈(R ⦂ ℙ(R))" org.eventb.core.source="/ex-pattern-const-DE/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.axiom#_6ufCo4XbEemG6aLnsnvHyQ" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name=")" org.eventb.core.label="axm3" org.eventb.core.predicate="partition(CTRL,{step})" org.eventb.core.source="/ex-pattern-const-DE/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.axiom#_6ufCooXbEemG6aLnsnvHyT" org.eventb.core.theorem="false"/>
+<org.eventb.core.scCarrierSet name="CTRL" org.eventb.core.source="/ex-pattern-const-DE/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.carrierSet#_6ufCooXbEemG6aLnsnvHyR" org.eventb.core.type="ℙ(CTRL)"/>
+<org.eventb.core.scConstant name="c1" org.eventb.core.source="/ex-pattern-const-DE/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#_6ufCoIXbEemG6aLnsnvHyQ" org.eventb.core.type="R"/>
+<org.eventb.core.scConstant name="c2" org.eventb.core.source="/ex-pattern-const-DE/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#_6ufCoYXbEemG6aLnsnvHyQ" org.eventb.core.type="R"/>
+<org.eventb.core.scConstant name="step" org.eventb.core.source="/ex-pattern-const-DE/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#_Fz7-ECi0Eeq2P6Y5e5vOsQ" org.eventb.core.type="CTRL"/>
+</org.eventb.core.scContextFile>

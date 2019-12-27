@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1559551751413" org.eventb.texttools.text_representation="machine M1&#10;sees&#10;&#9;C1&#10;&#10;variables&#10;&#9;x&#10;&#9;n&#10;&#10;invariants&#10;&#9;@inv1 x ∈ R&#10;&#9;@inv2 n : R&#10;&#10;events&#10;  event INITIALISATION&#10;  then&#10;  &#9;x :: R&#10;  end&#10;end&#10;" version="5">
+<org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="x≔zero" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="n≔zero" org.eventb.core.label="act2"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="ctrl≔step" org.eventb.core.label="act3"/>
+</org.eventb.core.event>
+<org.eventb.core.seesContext name="(" org.eventb.core.target="C1"/>
+<org.eventb.core.variable name=")" org.eventb.core.identifier="x"/>
+<org.eventb.core.variable name="*" org.eventb.core.identifier="n"/>
+<org.eventb.core.invariant name="+" org.eventb.core.label="inv1" org.eventb.core.predicate="x∈R"/>
+<org.eventb.core.invariant name="," org.eventb.core.label="inv2" org.eventb.core.predicate="n∈R"/>
+<org.eventb.core.event name="-" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="step">
+<org.eventb.core.action name="'" org.eventb.core.assignment="n≔ n plus one" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="x≔ (c1 mult x) plus c2" org.eventb.core.label="act2"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd1" org.eventb.core.predicate="ctrl=step"/>
+</org.eventb.core.event>
+<org.eventb.core.invariant name="." org.eventb.core.label="inv3" org.eventb.core.predicate="ctrl∈CTRL"/>
+<org.eventb.core.variable name="/" org.eventb.core.identifier="ctrl"/>
+<org.eventb.core.invariant name="1" org.eventb.core.label="inv4" org.eventb.core.predicate="leq(zero, n)"/>
+<org.eventb.core.invariant name="2" org.eventb.core.comment=" TODO: please fill here the invariant that you think is true for this model" org.eventb.core.label="inv5" org.eventb.core.predicate="⊤"/>
+</org.eventb.core.machineFile>
