@@ -83,10 +83,10 @@
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p3" org.eventb.core.predicate="∀r⦂R·lt(zero ⦂ R,r)⇒¬r=(zero ⦂ R)"/>
 <org.eventb.core.prPred name="p1" org.eventb.core.predicate="∀r⦂R·r∈(R ⦂ ℙ(R))∧lt(zero ⦂ R,r)⇒¬r=(zero ⦂ R)"/>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
-<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="Rpos_zero/S-THM"/>
 <org.eventb.core.prProof name="prop_domain_restric_agree/S-THM" org.eventb.core.confidence="1000" org.eventb.core.prFresh="s,f,v" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
@@ -1560,8 +1560,8 @@
 <org.eventb.core.prIdent name="a" org.eventb.core.type="R"/>
 <org.eventb.core.prIdent name="b" org.eventb.core.type="R"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="Ropp_0/S/rhs1"/>

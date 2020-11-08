@@ -3,47 +3,51 @@
 <org.eventb.core.prProof name="axm23/WD-AXM" org.eventb.core.confidence="1000" org.eventb.core.prFresh="c,d,e,f,x" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L">
 <org.eventb.theory.core.scAxiomaticTypeDefinition name="R"/>
-<org.eventb.theory.core.scAxiomaticOperatorDefinition name="plus" org.eventb.core.label="plus" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#(" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="infix extended expression group" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="INFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="⊤">
-<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#(|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="R"/>
-<org.eventb.theory.core.scOperatorArgument name="b" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#(|org.eventb.theory.core.operatorArgument#(" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scAxiomaticOperatorDefinition name="plus" org.eventb.core.label="plus" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#(" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="infix extended expression group" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="INFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="⊤">
+<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#(|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scOperatorArgument name="b" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#(|org.eventb.theory.core.operatorArgument#(" org.eventb.core.type="R"/>
 </org.eventb.theory.core.scAxiomaticOperatorDefinition>
-<org.eventb.theory.core.scAxiomaticOperatorDefinition name="zero" org.eventb.core.label="zero" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#+" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="org.eventb.core.ast.atomicExpr" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="⊤"/>
-<org.eventb.theory.core.scAxiomaticOperatorDefinition name="neg" org.eventb.core.label="neg" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#-" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="⊤">
-<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#-|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scAxiomaticOperatorDefinition name="zero" org.eventb.core.label="zero" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#+" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="org.eventb.core.ast.atomicExpr" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="⊤"/>
+<org.eventb.theory.core.scAxiomaticOperatorDefinition name="neg" org.eventb.core.label="neg" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#-" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="⊤">
+<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#-|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="R"/>
 </org.eventb.theory.core.scAxiomaticOperatorDefinition>
-<org.eventb.theory.core.scAxiomaticOperatorDefinition name="mult" org.eventb.core.label="mult" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#\/" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="infix extended expression group" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="INFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="⊤">
-<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#\/|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="R"/>
-<org.eventb.theory.core.scOperatorArgument name="b" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#\/|org.eventb.theory.core.operatorArgument#(" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scAxiomaticOperatorDefinition name="mult" org.eventb.core.label="mult" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#\/" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="infix extended expression group" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="INFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="⊤">
+<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#\/|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scOperatorArgument name="b" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#\/|org.eventb.theory.core.operatorArgument#(" org.eventb.core.type="R"/>
 </org.eventb.theory.core.scAxiomaticOperatorDefinition>
-<org.eventb.theory.core.scAxiomaticOperatorDefinition name="one" org.eventb.core.label="one" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#2" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="org.eventb.core.ast.atomicExpr" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="⊤"/>
-<org.eventb.theory.core.scAxiomaticOperatorDefinition name="inv" org.eventb.core.label="inv" org.eventb.core.predicate="a≠(zero ⦂ R)" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#4" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="a≠(zero ⦂ R)">
-<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#4|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scAxiomaticOperatorDefinition name="one" org.eventb.core.label="one" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#2" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="org.eventb.core.ast.atomicExpr" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="⊤"/>
+<org.eventb.theory.core.scAxiomaticOperatorDefinition name="inv" org.eventb.core.label="inv" org.eventb.core.predicate="a≠(zero ⦂ R)" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#4" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="a≠(zero ⦂ R)">
+<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#4|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="R"/>
 </org.eventb.theory.core.scAxiomaticOperatorDefinition>
-<org.eventb.theory.core.scAxiomaticOperatorDefinition name="leq" org.eventb.core.label="leq" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#8" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="false" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.wd="⊤">
-<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#8|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="R"/>
-<org.eventb.theory.core.scOperatorArgument name="b" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#8|org.eventb.theory.core.operatorArgument#(" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scAxiomaticOperatorDefinition name="leq" org.eventb.core.label="leq" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#8" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="false" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.wd="⊤">
+<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#8|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scOperatorArgument name="b" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#8|org.eventb.theory.core.operatorArgument#(" org.eventb.core.type="R"/>
 </org.eventb.theory.core.scAxiomaticOperatorDefinition>
-<org.eventb.theory.core.scAxiomaticOperatorDefinition name="sup" org.eventb.core.label="sup" org.eventb.core.predicate="A≠(∅ ⦂ ℙ(R))∧(∃m⦂R·m∈(R ⦂ ℙ(R))∧(∀x⦂R·x∈A⇒leq(x,m)))" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#A" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="A≠(∅ ⦂ ℙ(R))∧(∃m⦂R·m∈(R ⦂ ℙ(R))∧(∀x⦂R·x∈A⇒leq(x,m)))">
-<org.eventb.theory.core.scOperatorArgument name="A" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#A|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="ℙ(R)"/>
+<org.eventb.theory.core.scAxiomaticOperatorDefinition name="sup" org.eventb.core.label="sup" org.eventb.core.predicate="A≠(∅ ⦂ ℙ(R))∧(∃m⦂R·m∈(R ⦂ ℙ(R))∧(∀x⦂R·x∈A⇒leq(x,m)))" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#A" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="A≠(∅ ⦂ ℙ(R))∧(∃m⦂R·m∈(R ⦂ ℙ(R))∧(∀x⦂R·x∈A⇒leq(x,m)))">
+<org.eventb.theory.core.scOperatorArgument name="A" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#A|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="ℙ(R)"/>
 </org.eventb.theory.core.scAxiomaticOperatorDefinition>
-<org.eventb.theory.core.scAxiomaticOperatorDefinition name="inf" org.eventb.core.label="inf" org.eventb.core.predicate="A≠(∅ ⦂ ℙ(R))∧(∃m⦂R·m∈(R ⦂ ℙ(R))∧(∀x⦂R·x∈A⇒leq(m,x)))" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#C" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="A≠(∅ ⦂ ℙ(R))∧(∃m⦂R·m∈(R ⦂ ℙ(R))∧(∀x⦂R·x∈A⇒leq(m,x)))">
-<org.eventb.theory.core.scOperatorArgument name="A" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#C|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="ℙ(R)"/>
+<org.eventb.theory.core.scAxiomaticOperatorDefinition name="inf" org.eventb.core.label="inf" org.eventb.core.predicate="A≠(∅ ⦂ ℙ(R))∧(∃m⦂R·m∈(R ⦂ ℙ(R))∧(∀x⦂R·x∈A⇒leq(m,x)))" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#C" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="A≠(∅ ⦂ ℙ(R))∧(∃m⦂R·m∈(R ⦂ ℙ(R))∧(∀x⦂R·x∈A⇒leq(m,x)))">
+<org.eventb.theory.core.scOperatorArgument name="A" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#C|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="ℙ(R)"/>
 </org.eventb.theory.core.scAxiomaticOperatorDefinition>
-<org.eventb.theory.core.scAxiomaticOperatorDefinition name="lt" org.eventb.core.label="lt" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#F" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="false" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.wd="⊤">
-<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#F|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="R"/>
-<org.eventb.theory.core.scOperatorArgument name="b" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#F|org.eventb.theory.core.operatorArgument#(" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scAxiomaticOperatorDefinition name="lt" org.eventb.core.label="lt" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#F" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="false" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.wd="⊤">
+<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#F|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scOperatorArgument name="b" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#F|org.eventb.theory.core.operatorArgument#(" org.eventb.core.type="R"/>
 </org.eventb.theory.core.scAxiomaticOperatorDefinition>
-<org.eventb.theory.core.scAxiomaticOperatorDefinition name="sub" org.eventb.core.label="sub" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#J" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="infix extended expression group" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="INFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="⊤">
-<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#J|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="R"/>
-<org.eventb.theory.core.scOperatorArgument name="b" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#J|org.eventb.theory.core.operatorArgument#(" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scAxiomaticOperatorDefinition name="sub" org.eventb.core.label="sub" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#J" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="infix extended expression group" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="INFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="⊤">
+<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#J|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scOperatorArgument name="b" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#J|org.eventb.theory.core.operatorArgument#(" org.eventb.core.type="R"/>
 </org.eventb.theory.core.scAxiomaticOperatorDefinition>
-<org.eventb.theory.core.scAxiomaticOperatorDefinition name="cnt" org.eventb.core.label="cnt" org.eventb.core.predicate="f∈(R ⦂ ℙ(R)) → (R ⦂ ℙ(R))" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#H" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="false" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.wd="f∈(R ⦂ ℙ(R)) → (R ⦂ ℙ(R))">
-<org.eventb.theory.core.scOperatorArgument name="f" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#H|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="ℙ(R×R)"/>
-<org.eventb.theory.core.scOperatorArgument name="x" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#H|org.eventb.theory.core.operatorArgument#(" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scAxiomaticOperatorDefinition name="cnt" org.eventb.core.label="cnt" org.eventb.core.predicate="f∈(R ⦂ ℙ(R)) → (R ⦂ ℙ(R))" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#H" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="false" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.wd="f∈(R ⦂ ℙ(R)) → (R ⦂ ℙ(R))">
+<org.eventb.theory.core.scOperatorArgument name="f" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#H|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="ℙ(R×R)"/>
+<org.eventb.theory.core.scOperatorArgument name="x" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#H|org.eventb.theory.core.operatorArgument#(" org.eventb.core.type="R"/>
 </org.eventb.theory.core.scAxiomaticOperatorDefinition>
-<org.eventb.theory.core.scAxiomaticOperatorDefinition name="gt" org.eventb.core.label="gt" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#L" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="false" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.wd="⊤">
-<org.eventb.theory.core.scOperatorArgument name="b" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#L|org.eventb.theory.core.operatorArgument#(" org.eventb.core.type="R"/>
-<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-reals/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#L|org.eventb.theory.core.operatorArgument#)" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scAxiomaticOperatorDefinition name="gt" org.eventb.core.label="gt" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#L" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="false" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.wd="⊤">
+<org.eventb.theory.core.scOperatorArgument name="b" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#L|org.eventb.theory.core.operatorArgument#(" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#L|org.eventb.theory.core.operatorArgument#)" org.eventb.core.type="R"/>
+</org.eventb.theory.core.scAxiomaticOperatorDefinition>
+<org.eventb.theory.core.scAxiomaticOperatorDefinition name="pow" org.eventb.core.label="pow" org.eventb.core.predicate="⊤" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#N" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.groupID="org.eventb.core.ast.closed" org.eventb.theory.core.hasError="false" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.type="R" org.eventb.theory.core.wd="⊤">
+<org.eventb.theory.core.scOperatorArgument name="a" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#N|org.eventb.theory.core.operatorArgument#'" org.eventb.core.type="R"/>
+<org.eventb.theory.core.scOperatorArgument name="b" org.eventb.core.source="/theory-axiom-real/Real.tuf|org.eventb.theory.core.theoryRoot#Real|org.eventb.theory.core.axiomaticDefinitionsBlock#)|org.eventb.theory.core.axiomaticOperatorDefinition#N|org.eventb.theory.core.operatorArgument#(" org.eventb.core.type="R"/>
 </org.eventb.theory.core.scAxiomaticOperatorDefinition>
 </org.eventb.core.lang>
 <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
@@ -122,56 +126,48 @@
 </org.eventb.core.prRule>
 </org.eventb.core.prAnte>
 </org.eventb.core.prRule>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="lt(zero ⦂ R,d)">
+<org.eventb.core.prIdent name="d" org.eventb.core.type="R"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="∀d⦂R·lt(zero ⦂ R,d)⇒(∀x⦂R·lt(c sub d,x)∧lt(x,c plus d)⇒c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f))">
 <org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
 <org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p19" org.eventb.core.predicate="⊤"/>
-<org.eventb.core.prPred name="p8" org.eventb.core.predicate="lt(zero ⦂ R,e)">
-<org.eventb.core.prIdent name="e" org.eventb.core.type="R"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p7" org.eventb.core.predicate="lt(zero ⦂ R,e)⇒(∀d⦂R·lt(zero ⦂ R,d)⇒(∀x⦂R·lt(c sub d,x)∧lt(x,c plus d)⇒c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f)))">
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f)">
 <org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
-<org.eventb.core.prIdent name="e" org.eventb.core.type="R"/>
+<org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
+<org.eventb.core.prIdent name="x" org.eventb.core.type="R"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="f∈(R ⦂ ℙ(R)) → (R ⦂ ℙ(R))">
 <org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p20" org.eventb.core.predicate="f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))">
-<org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p14" org.eventb.core.predicate="lt(c sub d,x)">
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="lt(x,c plus d)">
 <org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
 <org.eventb.core.prIdent name="d" org.eventb.core.type="R"/>
 <org.eventb.core.prIdent name="x" org.eventb.core.type="R"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p22" org.eventb.core.predicate="x∈(R ⦂ ℙ(R))">
-<org.eventb.core.prIdent name="x" org.eventb.core.type="R"/>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="cnt(f,c)">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
+<org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p12" org.eventb.core.predicate="∀x⦂R·lt(c sub d,x)∧lt(x,c plus d)⇒c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f)">
 <org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
 <org.eventb.core.prIdent name="d" org.eventb.core.type="R"/>
 <org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="f∈(R ⦂ ℙ(R)) → (R ⦂ ℙ(R))∧cnt(f,c)⇒(∀e⦂R·lt(zero ⦂ R,e)⇒(∀d⦂R·lt(zero ⦂ R,d)⇒(∀x⦂R·lt(c sub d,x)∧lt(x,c plus d)⇒c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f))))">
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="∀f⦂ℙ(R×R),c⦂R·f∈(R ⦂ ℙ(R)) → (R ⦂ ℙ(R))∧cnt(f,c)⇒(∀e⦂R·lt(zero ⦂ R,e)⇒(∀d⦂R·lt(zero ⦂ R,d)⇒(∀x⦂R·lt(c sub d,x)∧lt(x,c plus d)⇒c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f))))"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀f⦂ℙ(R×R),c⦂R·f∈(R ⦂ ℙ(R)) → (R ⦂ ℙ(R))∧c∈(R ⦂ ℙ(R))∧cnt(f,c)⇒(∀e⦂R·lt(zero ⦂ R,e)⇒(∀d⦂R·lt(zero ⦂ R,d)⇒(∀x⦂R·lt(c sub d,x)∧lt(x,c plus d)⇒c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f))))"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="lt(zero ⦂ R,e)⇒(∀d⦂R·lt(zero ⦂ R,d)⇒(∀x⦂R·lt(c sub d,x)∧lt(x,c plus d)⇒c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f)))">
 <org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
+<org.eventb.core.prIdent name="e" org.eventb.core.type="R"/>
 <org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p21" org.eventb.core.predicate="x∈dom(f)">
 <org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
 <org.eventb.core.prIdent name="x" org.eventb.core.type="R"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="∀f⦂ℙ(R×R),c⦂R·f∈(R ⦂ ℙ(R)) → (R ⦂ ℙ(R))∧cnt(f,c)⇒(∀e⦂R·lt(zero ⦂ R,e)⇒(∀d⦂R·lt(zero ⦂ R,d)⇒(∀x⦂R·lt(c sub d,x)∧lt(x,c plus d)⇒c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f))))"/>
-<org.eventb.core.prPred name="p11" org.eventb.core.predicate="lt(zero ⦂ R,d)">
-<org.eventb.core.prIdent name="d" org.eventb.core.type="R"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀f⦂ℙ(R×R),c⦂R·f∈(R ⦂ ℙ(R)) → (R ⦂ ℙ(R))∧c∈(R ⦂ ℙ(R))∧cnt(f,c)⇒(∀e⦂R·lt(zero ⦂ R,e)⇒(∀d⦂R·lt(zero ⦂ R,d)⇒(∀x⦂R·lt(c sub d,x)∧lt(x,c plus d)⇒c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f))))"/>
-<org.eventb.core.prPred name="p4" org.eventb.core.predicate="f∈(R ⦂ ℙ(R)) → (R ⦂ ℙ(R))">
-<org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p6" org.eventb.core.predicate="∀e⦂R·lt(zero ⦂ R,e)⇒(∀d⦂R·lt(zero ⦂ R,d)⇒(∀x⦂R·lt(c sub d,x)∧lt(x,c plus d)⇒c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f)))">
-<org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
-<org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p17" org.eventb.core.predicate="c∈dom(f)">
 <org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
 <org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
 </org.eventb.core.prPred>
@@ -181,38 +177,46 @@
 <org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
 <org.eventb.core.prIdent name="x" org.eventb.core.type="R"/>
 </org.eventb.core.prPred>
+<org.eventb.core.prPred name="p22" org.eventb.core.predicate="x∈(R ⦂ ℙ(R))">
+<org.eventb.core.prIdent name="x" org.eventb.core.type="R"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="f∈(R ⦂ ℙ(R)) → (R ⦂ ℙ(R))∧cnt(f,c)⇒(∀e⦂R·lt(zero ⦂ R,e)⇒(∀d⦂R·lt(zero ⦂ R,d)⇒(∀x⦂R·lt(c sub d,x)∧lt(x,c plus d)⇒c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f))))">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
+<org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="c∈dom(f)">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
+<org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p20" org.eventb.core.predicate="f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))">
+<org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="lt(zero ⦂ R,e)">
+<org.eventb.core.prIdent name="e" org.eventb.core.type="R"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="∀f⦂ℙ(R×R),c⦂R·f∈(R ⦂ ℙ(R)) → (R ⦂ ℙ(R))∧⊤∧cnt(f,c)⇒(∀e⦂R·lt(zero ⦂ R,e)⇒(∀d⦂R·lt(zero ⦂ R,d)⇒(∀x⦂R·lt(c sub d,x)∧lt(x,c plus d)⇒c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f))))"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="lt(c sub d,x)">
+<org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
+<org.eventb.core.prIdent name="d" org.eventb.core.type="R"/>
+<org.eventb.core.prIdent name="x" org.eventb.core.type="R"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p10" org.eventb.core.predicate="lt(zero ⦂ R,d)⇒(∀x⦂R·lt(c sub d,x)∧lt(x,c plus d)⇒c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f))">
 <org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
 <org.eventb.core.prIdent name="d" org.eventb.core.type="R"/>
 <org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p16" org.eventb.core.predicate="c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f)">
-<org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
-<org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
-<org.eventb.core.prIdent name="x" org.eventb.core.type="R"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p5" org.eventb.core.predicate="cnt(f,c)">
-<org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
-<org.eventb.core.prIdent name="f" org.eventb.core.type="ℙ(R×R)"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="∀f⦂ℙ(R×R),c⦂R·f∈(R ⦂ ℙ(R)) → (R ⦂ ℙ(R))∧⊤∧cnt(f,c)⇒(∀e⦂R·lt(zero ⦂ R,e)⇒(∀d⦂R·lt(zero ⦂ R,d)⇒(∀x⦂R·lt(c sub d,x)∧lt(x,c plus d)⇒c∈dom(f)∧f∈(R ⦂ ℙ(R)) ⇸ (R ⦂ ℙ(R))∧x∈dom(f))))"/>
-<org.eventb.core.prPred name="p15" org.eventb.core.predicate="lt(x,c plus d)">
-<org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
-<org.eventb.core.prIdent name="d" org.eventb.core.type="R"/>
-<org.eventb.core.prIdent name="x" org.eventb.core.type="R"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p18" org.eventb.core.predicate="c∈(R ⦂ ℙ(R))">
 <org.eventb.core.prIdent name="c" org.eventb.core.type="R"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prExpr name="e0" org.eventb.core.expression="R ⦂ ℙ(R)"/>
-<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r7" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
 <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.totalDom:2"/>
 <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
 <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
-<org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
-<org.eventb.core.prReas name="r7" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="rew1/S/rhs1" org.eventb.core.psManual="true"/>
 <org.eventb.core.prProof name="rew2/S/rhs1" org.eventb.core.psManual="true"/>
@@ -1490,4 +1494,5 @@
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL3:1"/>
 </org.eventb.core.prProof>
+<org.eventb.core.prProof name="thm_assoc_comm_test/S-THM" org.eventb.core.prFresh="" org.eventb.core.prHyps="" org.eventb.core.psManual="true"/>
 </org.eventb.core.prFile>

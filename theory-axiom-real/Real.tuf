@@ -74,6 +74,12 @@
 <org.eventb.theory.core.operatorArgument name="(" org.eventb.core.expression="R" org.eventb.core.identifier="b"/>
 <org.eventb.theory.core.operatorArgument name=")" org.eventb.core.expression="R" org.eventb.core.identifier="a"/>
 </org.eventb.theory.core.axiomaticOperatorDefinition>
+<org.eventb.theory.core.axiomaticOperatorDefinition name="N" org.eventb.core.label="pow" org.eventb.theory.core.associative="false" org.eventb.theory.core.commutative="false" org.eventb.theory.core.formulaType="true" org.eventb.theory.core.notationType="PREFIX" org.eventb.theory.core.type="R">
+<org.eventb.theory.core.operatorArgument name="'" org.eventb.core.comment="base" org.eventb.core.expression="R" org.eventb.core.identifier="a"/>
+<org.eventb.theory.core.operatorArgument name="(" org.eventb.core.comment="exp" org.eventb.core.expression="R" org.eventb.core.identifier="b"/>
+</org.eventb.theory.core.axiomaticOperatorDefinition>
+<org.eventb.theory.core.axiomaticDefinitionAxiom name="O" org.eventb.core.label="pow_base" org.eventb.core.predicate="∀ a · a∈R ⇒ pow(a, zero) = one"/>
+<org.eventb.theory.core.axiomaticDefinitionAxiom name="P" org.eventb.core.label="pow_step" org.eventb.core.predicate="∀ a,b · a∈R ∧ b∈R ⇒ pow(a, b plus one) = pow(a, b) mult a"/>
 </org.eventb.theory.core.axiomaticDefinitionsBlock>
 <org.eventb.theory.core.proofRulesBlock name="+" org.eventb.core.label="add_com">
 <org.eventb.theory.core.metaVariable name="'" org.eventb.core.identifier="a" org.eventb.theory.core.type="R"/>
@@ -200,4 +206,5 @@
 </org.eventb.theory.core.rewriteRule>
 </org.eventb.theory.core.proofRulesBlock>
 <org.eventb.theory.core.proofRulesBlock name="A" org.eventb.core.label="rulesBlock1"/>
+<org.eventb.theory.core.theorem name="B" org.eventb.core.label="thm_assoc_comm_test" org.eventb.core.predicate="∀a,b,c · a∈R∧b∈R∧c∈R ∧ ⊤ ⇒&#13;&#10;((a plus b) plus c = (c plus b) plus a)"/>
 </org.eventb.theory.core.theoryRoot>
